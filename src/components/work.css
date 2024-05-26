@@ -1,0 +1,41 @@
+.work-head {
+    height: 10vh;
+    background-color: #131515;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-work {
+    margin-left: 3lh;
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+.nav {
+    display: flex;
+    flex: 0.2;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: 3lh;
+}
+
+.money, .analytics {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 2vh;
+}
+
+.money:hover, .analytics:hover {
+    transition: 0.3s;
+    color: #3a3737;
+}
+
+.add {
+    margin-right: 2lh;
+    margin-top: 50px;
+    text-align: right;
+    margin-left: auto;
+}

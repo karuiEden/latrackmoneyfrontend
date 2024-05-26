@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    backdrop-filter: blur(5px);
+}
+
+.welcomePage, .aboutPage {
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://g.foolcdn.com/image/?url=https%3A//g.foolcdn.com/editorial/images/572656/gettyimages-1153657433.jpg&w=2000&op=resize");
+    background-size: cover;
+    height: 100%;
+    min-height: 100vh;
+
+}
+
+.header {
+    height: 10vh;
+    justify-content: space-evenly;
+    background-color: #131515;
+    opacity: 70%;
+    color: aliceblue;
+    display: flex;
+    flex: 1;
+    align-items: center;
+
+}
+
+.head {
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+.source, .about-href {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 2vh;
+}
+
+.source:hover, .about-href:hover {
+    color: #008861;
+    transition: 0.3s;
+}
+
+.welcome, .about {
+    color: aliceblue;
+    font-size: calc(30px + 2vmin);
+    text-align: center;
+    flex: 1;
+    padding: 20px;
+    min-height: 88vh;
+
+}
+
+.main {
+    margin-top: 30vh;
+    align-items: center;
+}
+
+button {
+    transition-duration: 0.4s;
+    padding: 14px 40px;
+    font-size: 24px;
+    border-radius: 4px;
+    color: #ffffff;
+    background-color: rgba(19, 21, 21, 0.56);
+    border: 2px solid #151414;
+}
+
+button:hover{
+    background-color: rgba(19, 21, 21, 0.73); /* Green */
+    color: white;
+}
+
+footer {
+    display: flex;
+}
+
+.title {
+    color: aliceblue;
+    margin: auto;
+}
